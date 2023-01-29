@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0c84c9a7b1.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <div class="hero">
+        <div class=" hero1">
+            <h1>PHONEBOOK </h1>
+
+        </div>
+        <div class="maindiv">
+            <div class="hero2">
+                <form id="form">
+
+                    <div class="input-group">
+                        <input type="text"  id="name">
+                        <label for="name"> <i class="fa-solid fa-users-rectangle"></i> Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="number">
+                        <label for="name"> <i class="fa-sharp fa-solid fa-phone"></i> Phone No.</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="text" id="relation">
+                        <label for="name"><i class="fa-solid fa-square-envelope"></i> Relation</label>
+                    </div>
+                    <div class="buttonsDiv">
+                        <button onclick="csubmit(event)" type="submit" id="btn">SUBMIT</button>
+                        <button type="submit" class="reset" id="btn"> RESET</button>
+                    </div>
+                </form>
+
+
+            </div>
+
+
+            <div class=" hero3">
+                <fieldset>
+                    <table border="2" id="table">
+                        <tr>
+                            <td class="col">Name</td>
+                            <td class="col">Number</td>
+                            <td class="col">Relation</td>
+                            <td class="col">Action</td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </div>
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

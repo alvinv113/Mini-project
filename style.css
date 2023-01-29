@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('./assets/pexels-stephan-seeber-1054222.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.maindiv {
+    display: flex;
+}
+
+h1:after {
+    display: block;
+    height: 2px;
+    background-color: #230f69;
+    content: " ";
+    width: 100vh;
+    margin: 0 auto;
+    margin-top: 7px;
+   
+
+}
+
+h1:hover {
+    transition: 0.7s;
+    color: rgba(255, 72, 0, 0.836);
+
+}
+
+.hero1 {
+
+    font-size: 29px;
+    font-weight: 600;
+    background-image: linear-gradient(to right, #04113be5, #3a1b8fde);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    text-align: center;
+    justify-content: center;
+}
+
+.hero2 {
+    width: 31%;
+    height: 67vh;
+    margin-top: 46px;
+    margin-left: 44px;
+    background-image: linear-gradient(rgba(20, 28, 31, 0.507), #230f69);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px solid black;
+    box-shadow: rgba(211, 142, 186, 0.4) -5px 5px, rgba(29, 156, 127, 0.925) -10px 10px, rgba(218, 192, 233, 0.712) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+
+}
+
+.input-group {
+    margin-bottom: 42px;
+    position: relative;
+
+}
+
+.input-group :hover {
+    transition: 0.4s;
+    color: rgba(158, 46, 55, 0.836);
+
+}
+
+label {
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 24px;
+    color: rgba(229, 255, 196, 0.712);
+    cursor: text;
+}
+
+.span1 {
+    display: inline-block;
+}
+
+#btn {
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: rgba(255, 255, 255, 0.884);
+    background: transparent;
+    cursor: pointer;
+    width: 65%;
+    margin-right: 12px;
+
+
+}
+
+.reset {
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    color: rgba(161, 152, 149, 0.774);
+    background: transparent;
+    cursor: pointer;
+    width: 65%;
+
+}
+
+#btn:hover,
+#btn:active {
+    color: rgba(255, 72, 0, 0.836);
+    font-size: 110%;
+    /* background-color:#002ead; */
+    transition: 0.2s;
+}
+
+
+input:focus~label,
+input:valid~label {
+    top: -50px;
+    font-size: 15px;
+
+}
+
+.hero3 {
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+table {
+    border-color: white;
+    box-shadow: rgba(209, 13, 78, 0.4) 5px 5px, rgba(160, 197, 202, 0.664) 10px 10px, rgba(182, 29, 118, 0.87) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+}
+
+td {
+    padding: 8px 16px;
+}
+
+td:hover {
+    transition: 0.7s;
+    color: rgba(231, 18, 18, 0.993);
+
+}
+
+.col {
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgba(150, 240, 165, 0.89);
+}
+
+tr {
+    background-color: rgb(165, 233, 255);
+    color: black;
+    text-align: center;
+}
+.buttonsDiv{
+    display: flex;
+    padding: 10px;
+}
