@@ -1,4 +1,4 @@
-....................>Minor Project...................................>
+....................>Minor Project<...................................
 step1.) Fill the following details in a form
 1.) Name
 2.) Number
