@@ -1,4 +1,11 @@
 ....................>Minor Project<...................................
+use mkdir cmd  to make a directory for cloning the project
+There is a asset folder in which there is images.
+The project has 3 files
+index.html
+script.js
+style.js
+
 step1.) Fill the following details in a form
 1.) Name
 2.) Number
